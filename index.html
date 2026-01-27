@@ -30,8 +30,8 @@
 <style>
 
   .grid-container {
-    width: 150%;
-    max-width: 150%;;
+    width: 100%;
+    max-width: 100%;;
     padding: 40px;
     box-sizing: border-box;
     display: grid;
@@ -54,6 +54,41 @@
     border-radius: 12px;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
   }
+
+    .video-item2 {
+    text-align: center;
+  }
+
+  .video-item2 video {
+    width: 85%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+
+    .video-item3 {
+    text-align: center;
+  }
+
+  .video-item3 video {
+    width: 55%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+
+    .video-item4 {
+    text-align: center;
+  }
+
+  .video-item4 video {
+    width: 55%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+
+
 
   .caption {
     margin-top: 10px;
@@ -110,7 +145,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.png">
+  <link rel="icon" href="./static/images/favicon_soccer.png">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -131,8 +166,8 @@
           <h1 class="title is-1 publication-title">Learning  Soccer Skills for Humanoid Robots: A Progressive Perception-Action Framework</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-            <!-- <a>Anonymous</a></span> -->
-            <span class="author-block">
+            <a>Anonymous</a></span>
+            <!-- <span class="author-block">
               <a href="#">Jipeng Kong</a><sup>1,2*</sup>,</span>
             <span class="author-block">
               <a href="https://xinzheliu.github.io/">Xinzhe Liu</a><sup>1,2*</sup>,</span>
@@ -150,10 +185,10 @@
             </span>
             <span class="author-block">
               <a href="#">Xuelong Li</a><sup>1†</sup>
-            </span>
+            </span> -->
           </div>
 
-          <div class="is-size-5 publication-authors">
+          <!-- <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>Institute of Artificial Intelligence (TeleAI), China Telecom</span>
             <span class="author-block"><sup>2</sup>ShanghaiTech University</span>
             <span class="author-block"><sup>3</sup>Zhejiang University</span>
@@ -163,16 +198,15 @@
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>*</sup>Equal Contribution</span>
             <span class="author-block"><sup>†</sup>Corresponding Author</span>
-          </div>
+          </div> -->
 
 
-          <div class="image-container">
+          <!-- <div class="image-container">
             <img src="./static/images/teleai.png" alt="图片1">
             <img src="./static/images/Logo_of_ShanghaiTech_University.svg" alt="图片2">
-            <img src="./static/images/ustc.png" alt="图片3">
-            <img src="./static/images/Seal_of_NWPU.png" alt="图片4">
-            <img src="./static/images/Tsinghua_University_Logo.svg.png" alt="图片5">
-          </div>
+            <img src="./static/images/Zhejiang_University_Logo.svg.png" alt="图片3">
+            <img src="./static/images/SJTU_emblem.svg" alt="图片4">
+          </div> -->
 
 
 
@@ -180,39 +214,26 @@
             <div class="publication-links">
 
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2504.14305"
+                <a href="#"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
                   </span>
-                  <span>arXiv</span>
+                  <span>arXiv(coming soon...)</span>
                 </a>
               </span>
               <!-- Code Link. -->
               <span class="link-block">
                 <!-- <a href="https://drive.google.com/file/d/12hK8wajdeDG3wN0_WWCt0NY0N9p1HVlA/view?usp=sharing"
                    class="external-link button is-normal is-rounded is-dark"> -->
-                <a href="https://github.com/TeleHuman/ALMI-Open"
+                <a href="#"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
-                  <span>Code</span>
+                  <span>Code(coming soon...)</span>
                   </a>
               </span>
-              <!-- Dataset Link. -->
-              <span class="link-block">
-                <!-- <a href="https://drive.google.com/file/d/13msVuYWsCOTeQ4yTgPcrNBDFM9UqzNKQ/view?usp=sharing"
-                   class="external-link button is-normal is-rounded is-dark"> -->
-                  <a href="https://huggingface.co/datasets/TeleEmbodied/ALMI-X"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <!-- <i class="far fa-images"></i> -->
-                      <img src="./static/images/database.png" alt="icon" style="width: 1em; height: 1em; vertical-align: middle;">
-
-                  </span>
-                  <span>Dataset</span>
-                  </a>
             </div>
 
           </div>
@@ -228,20 +249,8 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
-        <!-- <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div> -->
-        <!-- <div class="content has-text-centered">
-          <video id="replay-video"
-                 preload
-                 autoplay loop playsinline controls
-                 width="75%">
-            <source src="./static/videos/eng.mp4"
-                    type="video/mp4">
-          </video> -->
-          <video src="./static/videos/eng_temp.mp4"  autoplay loop playsinline controls width="75%"></video>
-          
+          <!-- <video src="./static/videos/eng_temp.mp4"  autoplay loop playsinline controls width="75%"></video> -->
+          Coming soon...
       </div>
     </div>
 
@@ -260,7 +269,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Humans exhibit diverse and expressive whole-body movements. However, attaining human-like whole-body coordination in humanoid robots remains challenging, as conventional approaches that mimic whole-body motions often neglect the distinct roles of upper and lower body. This oversight leads to computationally intensive policy learning and frequently causes robot instability and falls during real-world execution. To address these issues, we propose Adversarial Locomotion and Motion Imitation (ALMI), a novel framework that enables adversarial policy learning between upper and lower body. Specifically, the lower body aims to provide robust locomotion capabilities to follow velocity commands while the upper body tracks various motions. Conversely, the upper-body policy ensures effective motion tracking when the robot executes velocity-based movements. Through iterative updates, these policies achieve coordinated whole-body control, which can be extended to loco-manipulation tasks with teleoperation systems. Extensive experiments demonstrate that our method achieves robust locomotion and precise motion tracking in both simulation and on the full-size Unitree H1 robot. Additionally, we release a large-scale whole-body motion control dataset featuring high-quality episodic trajectories from MuJoCo simulations deployable on real robots.
+           Soccer presents a significant challenge for humanoid robots, demanding tightly integrated perception-action capabilities for tasks like perception-guided kicking and whole-body balance control. Existing approaches suffer from inter-module instability in modular pipelines or conflicting training objectives in end-to-end frameworks. We propose Perception-Action integrated Decision-making (PAiD), a progressive architecture that decomposes soccer skill acquisition into three stages: motion-skill acquisition via human motion tracking, lightweight perception-action integration for positional generalization, and physics-aware sim-to-real transfer. This staged decomposition establishes stable foundational skills, avoids reward conflicts during perception integration, and minimizes sim-to-real gaps. Experiments on the Unitree G1 demonstrate high-fidelity human-like kicking with robust performance under diverse conditions—including static or rolling balls, various positions, and disturbances—while maintaining consistent execution across indoor and outdoor scenarios. Our divide-and-conquer strategy advances robust humanoid soccer capabilities and offers a scalable framework for complex embodied skill acquisition.
           </p>
         </div>
       </div>
@@ -274,7 +283,7 @@
         <div class="column is-four-fifths">
           <h2 class="title is-3">Method</h2>
           <div style="display: flex; justify-content: center; align-items: center;">
-            <img style="max-width: 100%; height: auto;" src="./static/images/overview_00.png" alt="图片1">
+            <img style="max-width: 100%; height: auto;" src="./static/images/Soccer-RSS-Method (1)_01.png" alt="图片1">
           </div>
           
         </div>
@@ -283,25 +292,6 @@
 
       <br>
 
-      <div class="container is-max-desktop">
-        <!-- Abstract. -->
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <h2 class="title is-3">ALMI Deployment Setting</h2>
-            <div class="content has-text-justified">
-              <p>
-                We conduct experiments using the Unitree-H1-2 robot equipped with the ROBOTERA XHAND robotic hand, applying ALMI-trained policies to the lower body control and various interfaces (i.e., open-loop controller, ALMI policy, and VR device) for the upper body control
-              </p>
-            </div>
-
-            <br>
-            <div style="display: flex; justify-content: center; align-items: center;">
-              <img style="max-width: 100%; height: auto;" src="./static/images/deploy_mask_00.png" alt="图片1">
-            </div>
-            
-          </div>
-        </div>
-      </div>
 <br>
 <br>
         
@@ -317,7 +307,7 @@
         <div class="columns is-centered has-text-centered">
 
 
-          <h3 class="title is-4">Motion Tracking</h3>
+          <h3 class="title is-4">Penalty kick</h3>
         </div>
       <div class="container is-max-desktop" style="display: flex;justify-content: center; align-items: center;">
         <!-- Abstract. -->
@@ -331,90 +321,35 @@
             <!-- 你可以替换 video src 为自己的路径，替换 caption 为提示语 -->
             <!-- 这里只演示前两个，剩下你可以复制粘贴扩展 -->
             <div class="video-item">
-              <video src="./static/videos/Bg4-Shake_hand-Stand.MP4"  autoplay muted loop playsinline controls></video>
-              <div class="caption">Shake hand and stand still</div>
+              <video src="./static/videos/single-motion/single_near_left-clip.MP4"  autoplay muted loop playsinline controls></video>
+              <div class="caption">Left Position (near)</div>
             </div>
             <div class="video-item">
-              <video src="./static/videos/Bg4-Punch-Stand.MP4" autoplay muted loop playsinline controls></video>
-              <div class="caption">Punch and stand still</div>
-            </div>
-        
-            <div class="video-item">
-              <video src="./static/videos/Bg4-Salute-Stand.MP4" autoplay muted loop playsinline controls></video>
-              <div class="caption">Salute and stand still</div>
-            </div>
-            <div class="video-item">
-              <video src="./static/videos/Bg4-Wave_both-Stand.MP4" autoplay muted loop playsinline controls></video>
-              <div class="caption">Wave both hands and stand still</div>
-            </div>  
-
-
-            <div class="video-item">
-              <video src="./static/videos/Bg1-Guitar-Forward_2.MP4" autoplay muted loop playsinline controls></video>
-              <div class="caption">Play the guitar and go forward</div>
+              <video src="./static/videos/single-motion/single_far_left-clip.MP4" autoplay muted loop playsinline controls></video>
+              <div class="caption">Left Position (far)</div>
             </div>
         
             <div class="video-item">
-              <video src="./static/videos/Bg7-Violin-Forward_2.mp4" autoplay muted loop playsinline controls></video>
-              <div class="caption">Play the violin and go forward</div>
+              <video src="./static/videos/single-motion/single_near_forward-clip.MP4" autoplay muted loop playsinline controls></video>
+              <div class="caption">Forward Position (near)</div>
             </div>
 
- 
-            <div class="video-item">
-              <video src="./static/videos/Bg4-Wave_left-Forward.MP4" autoplay muted loop playsinline controls></video>
-              <div class="caption">Wave left hand and go forward</div>
-            </div>  
-            
-            <div class="video-item">
-              <video src="./static/videos/wave_right_turn_right.mp4" autoplay muted loop playsinline controls></video>
-              <div class="caption">Wave right hand and turn right</div>
-            </div>
 
+            <div class="video-item">
+              <video src="./static/videos/single-motion/single_far_forward-clip.MP4"  autoplay muted loop playsinline controls></video>
+              <div class="caption">Forward Position (far)</div>
+            </div>
+            <div class="video-item">
+              <video src="./static/videos/single-motion/single_near_right-clip.MP4" autoplay muted loop playsinline controls></video>
+              <div class="caption">Right Position (near)</div>
+            </div>
         
             <div class="video-item">
-              <video src="./static/videos/Bg7-Tennis_left-Turn_right.mp4" autoplay muted loop playsinline controls></video>
-              <div class="caption">Play tennis with left hand and turn right</div>
-            </div> 
-
-            <div class="video-item">
-              <video src="./static/videos/Bg7-Tennis_right-Forward.mp4" autoplay muted loop playsinline controls></video>
-              <div class="caption">Play tennis with right hand and go forward</div>
-            </div> 
-
-            
-            <div class="video-item">
-              <video src="./static/videos/Bg7-Drink-Backward.mp4" autoplay muted loop playsinline controls></video>
-              <div class="caption">Drink and go backward</div>
-            </div> 
-
-            <div class="video-item">
-              <video src="./static/videos/Bg7-High_five-Forward.mp4" autoplay muted loop playsinline controls></video>
-              <div class="caption">High five and go forward</div>
-            </div> 
-
-            <div class="video-item">
-              <video src="./static/videos/Bg7-Golf-Backward.mp4" autoplay muted loop playsinline controls></video>
-              <div class="caption">Play golf and go backward</div>
-            </div> 
-
-
-            <div class="video-item">
-              <video src="./static/videos/Bg7-Wash_arm-Turn_right_2.mp4" autoplay muted loop playsinline controls></video>
-              <div class="caption">Wash arm and turn right</div>
+              <video src="./static/videos/single-motion/single_far_right-clip.MP4" autoplay muted loop playsinline controls></video>
+              <div class="caption">Right Position (far)</div>
             </div>
 
-            <div class="video-item">
-              <video src="./static/videos/Bg2-No-Backforward_left.MP4"  autoplay muted loop playsinline controls></video>
-              <div class="caption">Go backward to the left</div>
-            </div> 
 
-            <div class="video-item">
-              <video src="./static/videos/Bg7-Mix-Turn_left.mp4"  autoplay muted loop playsinline controls></video>
-              <div class="caption">Make a circle and go forward</div>
-            </div> 
-            <!-- 继续添加剩下的视频项 -->
-            <!-- ...直到第 20 个 -->
-        
           </div>
             
           </div>
@@ -423,16 +358,11 @@
 <br>
 
 
+<div class="columns is-centered has-text-centered">
 
 
-
-      <div class="columns is-centered has-text-centered">
-        <h3 class="title is-4">Loco-manipulation Tasks</h3>
-      </div>
-      </div>
-<br>
-
-
+          <h3 class="title is-4">Consecutive random position shots</h3>
+        </div>
       <div class="container is-max-desktop" style="display: flex;justify-content: center; align-items: center;">
         <!-- Abstract. -->
         <div class="columns is-centered has-text-centered" style="display: flex; justify-content: center; align-items: center;">
@@ -445,31 +375,9 @@
             <!-- 你可以替换 video src 为自己的路径，替换 caption 为提示语 -->
             <!-- 这里只演示前两个，剩下你可以复制粘贴扩展 -->
             <div class="video-item">
-              <video src="./static/videos/loco-manipulation-video/kitchen.mov"  autoplay muted loop playsinline controls></video>
-              <div class="caption">Kitchen Manipulation Tasks</div>
+              <video src="./static/videos/continue-shoot/continue-shot2.mp4"  autoplay muted loop playsinline controls></video>
+              <div class="caption">11 consecutive successful shots (randomly positioning the football)</div>
             </div>
-            <div class="video-item">
-              <video src="./static/videos/loco-manipulation-video/water_temp.mp4"  autoplay muted loop playsinline controls></video>
-              <div class="caption">Pouring Water Task</div>
-            </div>
-            <div class="video-item">
-              <video src="./static/videos/loco-manipulation-video/box.mp4"  autoplay muted loop playsinline controls></video>
-              <div class="caption">Carrying Box Task</div>
-            </div>      
-            <div class="video-item">
-              <video src="./static/videos/loco-manipulation-video/clean_temp.mp4"  autoplay muted loop playsinline controls></video>
-              <div class="caption">Cleaning the Floor Task</div>
-            </div>
-            <div class="video-item">
-              <video src="./static/videos/loco-manipulation-video/folder_temp.mp4"  autoplay muted loop playsinline controls></video>
-              <div class="caption">Office Task</div>
-            </div>      
-            <div class="video-item">
-              <video src="./static/videos/loco-manipulation-video/door.mp4"  autoplay muted loop playsinline controls></video>
-              <div class="caption">Opening Door Task</div>
-            </div>      
-            <!-- 继续添加剩下的视频项 -->
-            <!-- ...直到第 20 个 -->
         
           </div>
             
@@ -477,58 +385,139 @@
         </div>
       </div>
 
-
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Experiments on Unitree G1 robot</h2>
-        <!-- <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div> -->
-        <!-- <div class="content has-text-centered">
-          <video id="replay-video"
-                 preload
-                 autoplay loop playsinline controls
-                 width="75%">
-            <source src="./static/videos/eng.mp4"
-                    type="video/mp4">
-          </video> -->
-          <video src="./static/videos/G1.MP4" muted autoplay loop playsinline controls width="75%"></video>
-          
-      </div>
-    </div>
+      <div class="columns is-centered has-text-centered">
 
 
-
-<br>
-<br>
-<br>
-      <div class="container is-max-desktop">
+          <h3 class="title is-4">Star player's style of shooting</h3>
+        </div>
+      <div class="container is-max-desktop" style="display: flex;justify-content: center; align-items: center;">
         <!-- Abstract. -->
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <h2 class="title is-3">ALMI-X Dataset and Foundational Model</h2>
-            
+        <div class="columns is-centered has-text-centered" style="display: flex; justify-content: center; align-items: center;">
+          <div class="column is-four-fifths" style="display: flex; justify-content: center; align-items: center;">
 
-            <div class="content has-text-justified">
-              <p>
-                We also release a large-scale whole-body motion control dataset - ALMI-X, featuring high-quality episodic trajectories from MuJoCo simulations deployable on real robots, based on our humanoid control policy - ALMI.
 
-              </p>
+
+          <div class="grid-container" >
+            <!-- 示例 20 个视频项 -->
+            <!-- 你可以替换 video src 为自己的路径，替换 caption 为提示语 -->
+            <!-- 这里只演示前两个，剩下你可以复制粘贴扩展 -->
+            <div class="video-item2">
+              <video src="./static/videos/star/cluo-real.mp4"  autoplay muted loop playsinline controls></video>
+              <div class="caption">C. Ronaldo (original)</div>
             </div>
-            <!-- <div>
-            
-              You can download our dataset here: <a href="https://huggingface.co/datasets/TeleEmbodied/ALMI-X">ALMI-X</a>.<br>
-            </div> -->
-
-            <br>
-            <div style="display: flex; justify-content: center; align-items: center;">
-              <img style="max-width: 100%; height: auto;" src="./static/images/data_foundation_4_00.png" alt="图片1">
+            <div class="video-item">
+              <video src="./static/videos/star/cluo.mp4" autoplay muted loop playsinline controls></video>
+              <div class="caption">C. Ronaldo</div>
             </div>
+        
+            <div class="video-item3">
+              <video src="./static/videos/star/neimaer-real.mp4" autoplay muted loop playsinline controls></video>
+              <div class="caption">Neymar (original)</div>
+            </div>
+
+
+            <div class="video-item">
+              <video src="./static/videos/star/neimaer.mp4"  autoplay muted loop playsinline controls></video>
+              <div class="caption">Neymar</div>
+            </div>
+            <div class="video-item4">
+              <video src="./static/videos/star/mubapei-real.mp4" autoplay muted loop playsinline controls></video>
+              <div class="caption">Mbappé (original)</div>
+            </div>
+        
+            <div class="video-item">
+              <video src="./static/videos/star/mubapei.mp4" autoplay muted loop playsinline controls></video>
+              <div class="caption">Mbappé</div>
+            </div>
+
+
+          </div>
             
           </div>
         </div>
       </div>
+<br>
+
+
+
+
+
+
+      <div class="columns is-centered has-text-centered">
+
+
+          <h3 class="title is-4">Star player's style of shooting</h3>
+        </div>
+      <div class="container is-max-desktop" style="display: flex;justify-content: center; align-items: center;">
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered" style="display: flex; justify-content: center; align-items: center;">
+          <div class="column is-four-fifths" style="display: flex; justify-content: center; align-items: center;">
+
+
+
+          <div class="grid-container" >
+            <!-- 示例 20 个视频项 -->
+            <!-- 你可以替换 video src 为自己的路径，替换 caption 为提示语 -->
+            <!-- 这里只演示前两个，剩下你可以复制粘贴扩展 -->
+            <div class="video-item">
+              <video src="./static/videos/outside/outside1.mp4"  autoplay muted loop playsinline controls></video>
+              <div class="caption">Grass ground standard motion</div>
+            </div>
+            <div class="video-item">
+              <video src="./static/videos/outside/outside2.mp4" autoplay muted loop playsinline controls></video>
+              <div class="caption">Grass ground star motion</div>
+            </div>
+
+
+          </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    <div class="columns is-centered has-text-centered">
+
+
+          <h3 class="title is-4">Kick moving soccer</h3>
+        </div>
+      <div class="container is-max-desktop" style="display: flex;justify-content: center; align-items: center;">
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered" style="display: flex; justify-content: center; align-items: center;">
+          <div class="column is-four-fifths" style="display: flex; justify-content: center; align-items: center;">
+
+
+
+          <div class="grid-container" >
+            <!-- 示例 20 个视频项 -->
+            <!-- 你可以替换 video src 为自己的路径，替换 caption 为提示语 -->
+            <!-- 这里只演示前两个，剩下你可以复制粘贴扩展 -->
+            <div class="video-item">
+              <video src="./static/videos/move/move2_clip.mp4"  autoplay muted loop playsinline controls></video>
+              <div class="caption">From right to left</div>
+            </div>
+            <div class="video-item">
+              <video src="./static/videos/move/move1_clip.mp4" autoplay muted loop playsinline controls></video>
+              <div class="caption">From left to right</div>
+            </div>
+
+
+          </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+
+
+<br>
+<br>
+<br>
+
 
 
 
@@ -547,13 +536,7 @@
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>
-      @inproceedings{shi2025almi,
-        title={Adversarial Locomotion and Motion Imitation for Humanoid Policy Learning},
-        author={Jiyuan Shi and Xinzhe Liu and Dewei Wang and Ouyang Lu and Sören Schwertfeger and Fuchun Sun and Chenjia Bai and Xuelong Li},
-        booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
-        year={2025},
-        url={https://openreview.net/forum?id=hVoIz6xD9Q}
-      }
+      TODO
 </code></pre>
   </div>
 </section>
