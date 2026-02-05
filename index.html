@@ -31,6 +31,22 @@
       max-width: 11%;
     }
 
+    .title-with-logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 0px;
+      justify-content: center;
+    }
+
+    .title-with-logo img {
+      height: 124px;
+      width: auto;
+    }
+
+    .title-with-logo h1 {
+      margin: 0;
+    }
+
   </style>
 
 <style>
@@ -169,7 +185,10 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Learning  Soccer Skills for Humanoid Robots: A Progressive Perception-Action Framework</h1>
+          <div class="title-with-logo">
+            <img src="./static/images/PAiD-logo.png" alt="PAiD logo">
+            <h2 class="title is-2 publication-title">Learning  Soccer Skills for Humanoid Robots: &nbsp; A Progressive Perception-Action Framework</h2>
+          </div>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
             <!-- <a>Anonymous</a></span> -->
